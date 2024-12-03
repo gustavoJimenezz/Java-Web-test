@@ -1,0 +1,33 @@
+# Ignorar todos los archivos compilados y carpetas generadas automáticamente
+apache-tomcat-9.0.97/
+Servers/
+CarritoCompras/build/
+
+# Ignorar configuraciones específicas del IDE y archivos temporales
+**/.settings/
+*.log
+*.tmp
+
+# Ignorar dependencias y bibliotecas compiladas
+CarritoCompras/src/main/webapp/WEB-INF/lib/
+CarritoCompras/src/main/webapp/META-INF/
+
+# Ignorar archivos específicos de Tomcat y del servidor
+Servers/Apache Tomcat v9.0 local at localhost-config/
+Servers/Tomcat v9.0 Server at localhost-config/
+
+# Ignorar todo el contenido temporal de Tomcat
+apache-tomcat-9.0.97/temp/
+apache-tomcat-9.0.97/logs/
+apache-tomcat-9.0.97/work/
+
+# Ignorar el contenido generado en el contenedor de aplicaciones de Tomcat
+apache-tomcat-9.0.97/webapps/ROOT/
+apache-tomcat-9.0.97/webapps/examples/
+apache-tomcat-9.0.97/webapps/host-manager/
+apache-tomcat-9.0.97/webapps/manager/
+
+# Si necesitas incluir algunos archivos específicos dentro de las carpetas ignoradas:
+# !apache-tomcat-9.0.97/conf/server.xml
+# !CarritoCompras/src/main/webapp/WEB-INF/web.xml
+
